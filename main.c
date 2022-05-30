@@ -38,8 +38,8 @@ void bsp(int min_x, int min_y, int max_x, int max_y, int depth)
   offset_x = w * RANDOM_PERCENT;
   offset_y = h * RANDOM_PERCENT;
 
-  offset_x = offset_x > 0 ? offset_x : 1 ;
-  offset_y = offset_y > 0 ? offset_y : 1 ;
+  offset_x = offset_x > 0 ? offset_x : 1;
+  offset_y = offset_y > 0 ? offset_y : 1;
 
   x = (mid_x - offset_x) + (rand() % offset_x);
   yl = (mid_y - offset_y) + (rand() % offset_y);
